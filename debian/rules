@@ -7,8 +7,6 @@ export DH_GOPKG := github.com/opencontainers/runc
 #export DH_GOLANG_INSTALL_EXTRA := libcontainer/seccomp/fixtures
 BUILDDIR := $(shell pwd)
 DESTDIR := $(BUILDDIR)/debian/cri-o-runc
-GO := /usr/lib/go-1.12/bin/go
-PATH := /usr/lib/go-1.12/bin:$(PATH)
 
 %:
 	dh $@ --buildsystem=golang --with=golang --builddirectory=$(BUILDDIR)

@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Lokesh Mandvekar <lsm5@fedoraproject.org>
 Build-Depends: debhelper (>= 9),
     dh-golang,
-    golang-1.12,
+    golang-go (>= 2:1.11~1~bpo1),
     go-md2man,
     libapparmor-dev,
     protobuf-compiler,

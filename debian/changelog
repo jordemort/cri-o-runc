@@ -1,3 +1,9 @@
+cri-o-runc (1.0.0~rc8) stretch; urgency=medium
+
+  * Bump upstream version
+
+ -- Jordan Webb <jordemort@github.com>  Tue, 29 May 2019 00:00:00 +0000
+
 cri-o-runc (1.0.0~rc7+20190403+029124d+stretch1) stretch; urgency=medium
 
   * Backport to stretch
@@ -49,7 +55,7 @@ cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa31) bionic; urgency=medium
 
 cri-o-runc (1.0.0-rc6-1~dev~ubuntu18.04~ppa30) bionic; urgency=medium
 
-  * autobuilt f56b4cb 
+  * autobuilt f56b4cb
 
  -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Tue, 19 Mar 2019 19:12:40 +0000
 
@@ -200,7 +206,7 @@ cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa6) bionic; urgency=medium
 
 cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa5) bionic; urgency=medium
 
-  * built 079817c 
+  * built 079817c
 
  -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Thu, 08 Nov 2018 15:48:55 -0500
 
@@ -211,4 +217,3 @@ cri-o-runc (1.0.0-rc5-1~dev~ubuntu18.04~ppa4) bionic; urgency=medium
   * packaging files mostly copied from the official debian package
 
  -- Lokesh Mandvekar <lsm5@fedoraproject.org>  Sun, 12 Aug 2018 09:25:26 +0000
-
